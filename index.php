@@ -74,6 +74,8 @@
     <div class="container">
         <div class="row">
             <h1>login</h1>
+            <p>admin@gmail.com password 111111</p>
+            <p>test@gmail.com password 111111</p>
             <form method="post">
                 <div class="mb-3">
                     <label class="form-label">Email address</label>
