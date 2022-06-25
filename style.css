@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FDFFFC;
+}
+.container{
+    margin-top: 200px;
+}
+.container h1{
+    text-align: center;
+    color: #FF9F1C;
+    text-transform: capitalize;
+}
+.container h1:hover{
+    text-shadow: 5px 5px black;
+}
+.container form label{
+    color: #FF9F1C; 
+}
+.container form input{
+    background-color: #FDFFFC;
+    border-bottom:1px solid #011627;
+    color: #f78a6c;
+}
+.container form input:focus{
+    box-shadow: 4px 4px #f78a6c;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: #f78a6c;
+}
+.users{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #011627;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+.users h1{
+    font-size: 50px;
+    color: #FF9F1C;
+    text-shadow: 4px 4px #011627;
+}
+.users img{
+    border-radius: 50%;
+    border: 1px solid #FF9F1C;
+}
+.users img:hover{
+    border-radius: 10%;
+    border: 10px solid #FF9F1C;
+}
+
+.users form label{
+    display: flex;
+    padding-left: 110px;
+}
+.users form input{
+    width: 80%;
+    padding: 5px ;
+}
+
+
+.users form input:focus{
+    border-radius: 20px;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+section h1{
+    font-size: 50px;
+    text-transform:uppercase;
+    text-align: center;
+    color: #FF9F1C;
+}
+.cards .c11{
+    display: flex;
+}
+.cards .card{
+    height: 30%;
+    width: 50%;
+    margin-left: 10px;
+}
+.cards .card .card-body{
+    text-align: center;
+}
+.cards .card .card-body .card-title span{
+    font-size: 40px;
+    color: #FF9F1C;
+}
+.cards .card .card-header{
+    text-align: center;
+}
+.cards .card .buttom {
+    margin: 0 20%;
+    width: 80%;
+    justify-content: center;
+}
+.cards .card .buttom .btn{
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.productadded{
+    margin-top: 120px;
+    margin: 0 auto;
+    
+
+}
+.productadded .cards{
+    display: block;
+    float: left;
+}
+.productadded .cards::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.user_m .cds{
+  width: 18rem;
+  border:1px solid #000;
+   padding:20px 20px; 
+   text-align:center;
+   float:left;
+   margin:10px 20px;
+   height: 27rem;
+}
+.user_m .cds p{
+    padding-top: 20px;
+}
+.user_m .cds .buttons {
+    margin-top: 14px;
+}
