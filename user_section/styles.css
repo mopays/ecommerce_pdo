@@ -56,3 +56,46 @@ section h1{
     text-align: center;
     color: #FF9F1C;
 }
+.messages{
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.messages form{
+    padding: 10px 10px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.messages form label{
+    padding-top: 20px;
+}
+.messages form input{
+    width: 30rem;
+    border-radius: 10px ;
+    border:1px solid #FF9F1C ;
+}
+.messages form input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #FF9F1C;
+}
+.messages form  textarea{
+    width: 30rem;
+    border: 1px solid #FF9F1C;
+    border-radius: 10px;
+}
+.messages form textarea:focus{
+    outline: none;
+    border: 1px solid #FF9F1C;
+}
+.messages form  .send_message{
+    margin-top: 10px;
+    background-color: #FF9F1C;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 30px;
+}
+.messages form  .send_message:hover{
+    letter-spacing: 2px;
+    background-color: #fff;
+    color: #FF9F1C;
+}

@@ -38,17 +38,19 @@
                 }
             }
             if(isset($_REQUEST['delete'])){
-                $old_image = $_REQUEST['old_image'];
                 $id = $_REQUEST['delete'];
                 $delete_id = $db->prepare("DELETE FROM `product` WHERE id = ?");
                 $delete_id->execute([$id]);
-                $insertMsg[] = 'delete product success';
+                    header("refresh:1;product.php");
+                    $insertMsg[] = 'delete product success';
+                
+                
             }
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> œ
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -118,6 +120,9 @@
             <div class="cards">
                 <div class="card" style="width: 18rem;">
                     <img src="upload_image/<?php echo  $row['image']?>" class="card-img-top" alt="...">
+                   <form action="" method="post">
+                        <input type="hidden"  name="old_image" value="<?php echo $row['image']?>">
+                   </form>
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $row['category']?></h5>
                         <p class="card-text"><?php echo $row['details']?></p>

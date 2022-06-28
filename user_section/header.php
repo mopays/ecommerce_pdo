@@ -6,6 +6,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link " aria-current="page" href="shops.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="user.php">user</a></li>
+                        <li class="nav-item"><a class="nav-link" href="message.php">message</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="shops.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                         </li>

@@ -61,7 +61,7 @@
             <?php
              } 
             }else{ 
-                echo '<p style="text-align:center; color:red;font-size:50px; margin-top:40px;">no orders</p>';
+                echo '<p style="text-align:center; color:red;font-size:50px; margin-top:40px;">no message</p>';
             }
         ?>
       </section>
